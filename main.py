@@ -1,5 +1,20 @@
 class Rectangle:
-    pass
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def set_width(self, new_width):
+        self.width = new_width
 
-class Square:
-    pass
+    def set_height(self, new_height):
+        self.height = new_height
+
+    def get_area(self):
+        return self.width * self.height
+    
+    def get_perimeter(self):
+        return 2 * self.width + 2 * self.height
+
+class Square(Rectangle):
+    def __init__(self, side):
+        super().__init__(side, side)
