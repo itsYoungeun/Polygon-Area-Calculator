@@ -6,13 +6,13 @@ In this project you will use object oriented programming to create a <mark>Recta
 
 When a Rectangle object is created, it should be initialized with <mark>width</mark> and <mark>height</mark> attributes. The class should also contain the following methods:
 
-- set_width
-- set_height
-- get_area: Returns area (width * height)
-- get_perimeter: Returns perimeter (2 * width + 2 * height)
-- get_diagonal: Returns diagonal ((width ** 2 + height ** 2) ** .5)
-- get_picture: Returns a string that represents the shape using lines of '*'. The number of lines should be equal to the height and the number of '*' in each line should be equal to the width. There should be a new line (\n) at the end of each line. If the width or height is larger than 50, this should return the string: 'Too big for picture.'.
-- get_amount_inside: Takes another shape (square or rectangle) as an argument. Returns the number of times the passed in shape could fit inside the shape (with no rotations). For instance, a rectangle with a width of 4 and a height of 8 could fit in two squares with sides of 4.
+- <mark>set_width</mark>
+- <mark>set_height</mark>
+- <mark>get_area</mark>: Returns area (<mark>width * height</mark>)
+- <mark>get_perimeter</mark>: Returns perimeter (<mark>2 * width + 2 * height</mark>)
+- <mark>get_diagonal</mark>: Returns diagonal (<mark>(width ** 2 + height ** 2) ** .5</mark>)
+- <mark>get_picture</mark>: Returns a string that represents the shape using lines of '*'. The number of lines should be equal to the height and the number of '*' in each line should be equal to the width. There should be a new line (<mark>\n</mark>) at the end of each line. If the width or height is larger than 50, this should return the string: <mark>'Too big for picture.'</mark>.
+- <mark>get_amount_inside</mark>: Takes another shape (square or rectangle) as an argument. Returns the number of times the passed in shape could fit inside the shape (with no rotations). For instance, a rectangle with a width of 4 and a height of 8 could fit in two squares with sides of 4.
 
 Additionally, if an instance of a <mark>Rectangle</mark> is represented as a string, it should look like: <mark>'Rectangle(width=5, height=10)'</mark>.
 
